@@ -1,6 +1,6 @@
 <!-- toc -->
 
-# Basics of JavaFX
+# Background of JavaFX
 
 ![Logo of JavaFX](img/java_fx_logo.png)
 
@@ -97,3 +97,71 @@ You can run the application by pressing the Run button. You will get a window wi
 ![JavaFX and NetBeans](img/hello_world.png)
 
 Congratulations, you just build your first JavaFX application.
+
+## Understanding the JavaFX Architecture
+
+The diagram below gives an overview of the JavaFX architecture and it's underlying components. The following sections briefly describe the different components and how the parts interconnect.
+
+![JavaFX Architecture](img/java_fx_architecture.png)
+
+Below the JavaFX public APIs lies the engine that runs your JavaFX code. It is composed of subcomponents that include a JavaFX high performance graphics engine, called Prism; a small and efficient windowing system, called Glass; a media engine, and a web engine. Although these components are not exposed publicly, their descriptions can help you to better understand what runs a JavaFX application.
+
+### Scene Graph
+
+The JavaFX scene graph is the starting point for constructing a JavaFX application. It is a hierarchical tree of nodes that represents all of the visual elements of the application's user interface. It can handle input and can be rendered.
+
+A node is a visual/graphical object and it may include −
+* Geometrical (Graphical) objects − (2D and 3D) such as circle, rectangle, polygon, etc.
+* UI controls − such as Button, Checkbox, Choice box, Text Area, etc.
+* Containers − (layout panes) such as Border Pane, Grid Pane, Flow Pane, etc.
+* Media elements − such as audio, video and image objects.
+
+### Java Public APIs for JavaFX Features
+
+The top layer of the JavaFX architecture provides a complete set of Java public APIs that support rich client application development. These APIs provide freedom and flexibility to construct rich client applications.
+
+These Java APIs for JavaFX features:
+
+* Allow the use of powerful Java features, such as generics, annotations, multithreading, and Lamda Expressions.
+
+* Make it easier for Web developers to use JavaFX from other JVM-based dynamic languages, such as Groovy and JavaScript.
+
+* Allow Java developers to use other system languages, such as Groovy, for writing large or complex JavaFX applications.
+
+* Allow the use of binding which includes support for the high performance lazy binding, binding expressions, bound sequence expressions, and partial bind reevaluation. Alternative languages (like Groovy) can use this binding library to introduce binding syntax similar to that of JavaFX Script.
+
+* Extend the Java collections library to include observable lists and maps, which allow applications to wire user interfaces to data models, observe changes in those data models, and update the corresponding UI control accordingly.
+
+### Graphics System
+
+The JavaFX Graphics System is an implementation detail beneath the JavaFX scene graph layer. It supports both 2-D and 3-D scene graphs. It provides software rendering when the graphics hardware on a system is insufficient to support hardware accelerated rendering.
+
+Two graphics accelerated pipelines are implemented on the JavaFX platform:
+
+* Prism processes render jobs. It can run on both hardware and software renderers, including 3-D. It is responsible for rasterization and rendering of JavaFX scenes. The fully hardware accelerated path is used when possible, but when it is not available, the software render path is used because the software render path is already distributed in all of the Java Runtime Environments (JREs). This is particularly important when handling 3-D scenes. However, performance is better when the hardware render paths are used.
+
+* Quantum Toolkit ties Prism and Glass Windowing Toolkit together and makes them available to the JavaFX layer above them in the stack. It also manages the threading rules related to rendering versus events handling.
+
+### Glass Windowing Toolkit
+
+The Glass Windowing Toolkit is the lowest level in the JavaFX graphics stack. Its main responsibility is to provide native operating services, such as managing the windows, timers, and surfaces. It serves as the platform-dependent layer that connects the JavaFX platform to the native operating system.
+
+### Media and Images
+
+JavaFX media functionality is available through the javafx.scene.media APIs. JavaFX supports both visual and audio media. Support is provided for MP3, AIFF, and WAV audio files and FLV video files. JavaFX media functionality is provided as three separate components: the Media object represents a media file, the MediaPlayer plays a media file, and a MediaView is a node that displays the media.
+
+The Media Engine component has been designed with performance and stability in mind and provides consistent behavior across platforms.
+
+### Web Component
+
+The Web component is a JavaFX UI control that provides a Web viewer and full browsing functionality through its API. This Web Engine component is based on WebKit, which is an open source web browser engine that supports HTML5, CSS, JavaScript, DOM, and SVG. It enables developers to implement the following features in their Java applications:
+
+* Render HTML content from local or remote URL
+* Support history and provide Back and Forward navigation
+* Reload the content
+* Apply effects to the web component
+* Edit the HTML content
+* Execute JavaScript commands
+* Handle events
+
+In addition, Java calls can be controlled through JavaScript and vice versa to allow developers to make the best of both environments.

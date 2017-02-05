@@ -2,12 +2,12 @@
 
 * [Introduction](README.md)
 
-### Basics of JavaFX
+### Background of JavaFX
 
-* [Basics of JavaFX](basics/basics_of_javafx.md)
-* [Summary](basics/summary.md)
-* [Quiz](basics/quiz.md)
-* [Exercises](basics/exercises.md)
+* [Background of JavaFX](background/background.md)
+* [Summary](background/summary.md)
+* [Quiz](background/quiz.md)
+* [Exercises](background/exercises.md)
 
 ### Solutions
 
