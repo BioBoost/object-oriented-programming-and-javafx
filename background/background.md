@@ -90,8 +90,6 @@ Just create a new project in NetBeans and select "JavaFX => JavaFX Application" 
 
 Give the application a decent name such as 'JavaFX_HelloWorld'.
 
-![JavaFX and NetBeans](img/hello_world_creation.png)
-
 You can run the application by pressing the Run button. You will get a window with a single button. If you press it, a "Hello World" message will be printed to the console.
 
 ![JavaFX and NetBeans](img/hello_world.png)
