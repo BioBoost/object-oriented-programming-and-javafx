@@ -11,7 +11,7 @@
 
 ### Application Structure
 
-* [Application Structure](application_structure/background.md)
+* [Application Structure](application_structure/application_structure.md)
 * [Summary](application_structure/summary.md)
 * [Quiz](application_structure/quiz.md)
 * [Exercises](application_structure/exercises.md)
