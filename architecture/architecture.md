@@ -82,20 +82,6 @@ From Java8 onwards, the JDK (Java Development Kit) includes the JavaFX library. 
 
 In addition IDE's such as NetBeans already provide support for developing applications with JavaFX.
 
-Let's try it out and create a simple "Hello World" application.
-
-Just create a new project in NetBeans and select "JavaFX => JavaFX Application" as project template.
-
-![JavaFX and NetBeans](img/javafx_and_netbeans.png)
-
-Give the application a decent name such as 'JavaFX_HelloWorld'.
-
-You can run the application by pressing the Run button. You will get a window with a single button. If you press it, a "Hello World" message will be printed to the console.
-
-![JavaFX and NetBeans](img/hello_world.png)
-
-Congratulations, you just build your first JavaFX application.
-
 ## Understanding the JavaFX Architecture
 
 The diagram below gives an overview of the JavaFX architecture and it's underlying components. The following sections briefly describe the different components and how the parts interconnect.
