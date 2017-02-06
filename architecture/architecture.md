@@ -1,6 +1,6 @@
 <!-- toc -->
 
-# Background of JavaFX
+# Architecture of JavaFX
 
 ![Logo of JavaFX](img/java_fx_logo.png)
 

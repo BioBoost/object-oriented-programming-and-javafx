@@ -1,6 +1,7 @@
 # Summary
 
-* [Introduction](README.md)
+* [About the Course](README.md)
+* [Introduction](introduction/introduction.md)
 
 ### Architecture
 
