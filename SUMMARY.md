@@ -2,12 +2,19 @@
 
 * [Introduction](README.md)
 
-### Background of JavaFX
+### Architecture
 
-* [Background of JavaFX](background/background.md)
-* [Summary](background/summary.md)
-* [Quiz](background/quiz.md)
-* [Exercises](background/exercises.md)
+* [Architecture](architecture/architecture.md)
+* [Summary](architecture/summary.md)
+* [Quiz](architecture/quiz.md)
+* [Exercises](architecture/exercises.md)
+
+### Application Structure
+
+* [Application Structure](application_structure/background.md)
+* [Summary](application_structure/summary.md)
+* [Quiz](application_structure/quiz.md)
+* [Exercises](application_structure/exercises.md)
 
 ### Solutions
 
