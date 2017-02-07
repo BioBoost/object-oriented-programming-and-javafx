@@ -160,6 +160,12 @@ More information can be found @ https://docs.oracle.com/javase/8/javafx/api/java
 
 As any Java program, the actual entry point is still the `static void main` method which is called first. To allow the actual JavaFX framework to start, a call is made to the launch() method of the Application class. This will launch a standalone application.
 
+```java
+public static void main(String[] args) {
+    launch(args);
+}
+```
+
 #### The start method
 
 Most of the logic can be found in the start() method.
