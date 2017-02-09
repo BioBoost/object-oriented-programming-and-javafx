@@ -44,6 +44,31 @@ aka: BioBoost
 Password: ***********
 ```
 
+## Pointer Location Drawing
+
+Create a small application that draws a circle on the scene when the user clicks on it. Draw the circle at the location of the mouse pointer at the time of clicking.
+
+You can add an event filter to a scene, similar to an event handler that handles a button click. An example is given below.
+
+```java
+scene.addEventFilter(MouseEvent.MOUSE_PRESSED, new EventHandler<MouseEvent>() {
+    @Override
+    public void handle(MouseEvent mouseEvent) {
+        System.out.println("mouse click detected! " + mouseEvent.getSource());
+    }
+});
+```
+
+![Clicking the mouse](img/click.png)
+
+## Pointer Dragging Drawing
+
+Create a small application that draws a circle on the scene when the drags the mouse (holding the left button) on it. Draw the circle at the location of the mouse pointer at the time of clicking.
+
+You can use a similar filter to the one of the previous program.
+
+![Dragging the mouse](img/drag.png)
+
 ## Nine buttons keypad
 
 Create an application that has 9 buttons ordered like a keypad as shown in the image below.
