@@ -145,7 +145,7 @@ $ git commit -m "Add a gitignore file to ignore temporary netbeans and java file
 
 The next step consist of creating a remote repository on the gitlab server.
 
-Goto http://git.labict.be, login using your account and create a new repository by selecting the **New Project** option at the front page. Give the repository a name following this format: `oop2_solutions_your_name` where you `your_name` with your actual name. Make sure to make repository private.
+Goto http://git.labict.be, login using your account and create a new repository by selecting the **New Project** option at the front page. Give the repository a name following this format: `oop2_solutions`. Make sure to make repository private.
 
 It is also a good idea to provide a description to the repository. For example: 'Contains all the solution of the course Object Oriented Programming with JavaFX'.
 
