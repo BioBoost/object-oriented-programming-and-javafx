@@ -17,12 +17,12 @@
 * [Quiz](application_structure/quiz.md)
 * [Exercises](application_structure/exercises.md)
 
-<!-- ### Abstracting Things
+### Abstracting Things
 
-* [Abstracting Things](abstracting_things/abstracting_things.md) -->
-<!-- * [Summary](abstracting_things/summary.md)
-* [Quiz](abstracting_things/quiz.md)
-* [Exercises](abstracting_things/exercises.md) -->
+* [Abstracting Things](abstracting_things/abstracting_things.md)
+<!-- * [Summary](abstracting_things/summary.md) -->
+<!-- * [Quiz](abstracting_things/quiz.md) -->
+<!-- * [Exercises](abstracting_things/exercises.md) -->
 
 ### Using Git for Exercises
 
