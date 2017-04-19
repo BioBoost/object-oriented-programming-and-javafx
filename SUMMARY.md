@@ -24,6 +24,13 @@
 <!-- * [Quiz](abstracting_things/quiz.md) -->
 <!-- * [Exercises](abstracting_things/exercises.md) -->
 
+### Collections
+
+* [Collections](collections/collections.md)
+<!-- * [Summary](collections/summary.md) -->
+<!-- * [Quiz](collections/quiz.md) -->
+* [Exercises](collections/exercises.md)
+
 ### Reading and Writing files
 
 * [Reading Writing files](reading_writing_files/reading_writing_files.md)
