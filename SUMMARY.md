@@ -31,9 +31,9 @@
 <!-- * [Quiz](collections/quiz.md) -->
 * [Exercises](collections/exercises.md)
 
-### Reading and Writing files
+<!-- ### Reading and Writing files -->
 
-* [Reading Writing files](reading_writing_files/reading_writing_files.md)
+<!-- * [Reading Writing files](reading_writing_files/reading_writing_files.md) -->
 <!-- * [Summary](reading_writing_files/summary.md) -->
 <!-- * [Quiz](reading_writing_files/quiz.md) -->
 <!-- * [Exercises](reading_writing_files/exercises.md) -->
